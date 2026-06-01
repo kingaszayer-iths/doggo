@@ -19,7 +19,7 @@ function ActivityCard({
                 src={image}
                 alt=""
                 // alt={title}
-                className="card-image" 
+                className="card-image"
                 loading="lazy"
             />
 

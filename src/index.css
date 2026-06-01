@@ -239,7 +239,8 @@ main {
 .card-content {
   /* padding: 24px 16px; */
   /* padding: 1.5rem; */
-  padding: 1.5rem 1rem;;
+  padding: 1.5rem 1rem;
+  ;
 }
 
 .card-content h2 {
