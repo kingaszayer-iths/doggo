@@ -1,8 +1,24 @@
+/* reset */
+/* makes sizing simpler, pseudo elements */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
+
+/* don't leave one single word hanging in paragraphs */
+p {
+    text-wrap: pretty;
+}
+
+
+
+
 
 body {
   font-family: Arial, sans-serif;
@@ -206,7 +222,7 @@ main {
 
 .activities-grid {
   display: grid;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .activity-card {
@@ -425,6 +441,12 @@ main {
   font-size: 1rem;
   font-weight: 600;
   cursor: pointer;
+}
+
+.location-button svg {
+  width: 18px;
+  height: 18px;
+  margin-right: 8px;
 }
 
 .location-button:hover {
